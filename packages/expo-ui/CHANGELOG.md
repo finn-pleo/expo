@@ -1,5 +1,11 @@
 # Changelog
 
+## 58.0.12
+
+### Patch Changes
+
+- [iOS] Added the `navigationBarTitleDisplayMode` and `toolbarTitleDisplayMode` modifiers for controlling navigation and toolbar title presentation. ([#50687](https://github.com/expo/expo/pull/50687) by [@0x5bfa](https://github.com/0x5bfa))
+
 ## 58.0.11
 
 ### Patch Changes

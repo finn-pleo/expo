@@ -1,5 +1,11 @@
 # Changelog
 
+## 58.0.8
+
+### Patch Changes
+
+- [iOS] Fix `pod install` writing a damaged `Pods.xcodeproj` when objects created in a Podfile `post_install` hook or by Expo reuse UUIDs already in the project. ([#50946](https://github.com/expo/expo/pull/50946) by [@chrfalch](https://github.com/chrfalch))
+
 ## 58.0.7
 
 ### Patch Changes

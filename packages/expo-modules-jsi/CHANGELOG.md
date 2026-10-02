@@ -1,5 +1,13 @@
 # Changelog
 
+## 58.0.8
+
+### Patch Changes
+
+- [iOS] Fix crash reports symbolicated on the device showing no function names for `ExpoModulesJSI` frames. ([#50698](https://github.com/expo/expo/pull/50698) by [@tsapeta](https://github.com/tsapeta))
+- Return strings, objects and arrays from host functions and host object getters without cloning the engine handle, and build short ASCII strings from JS inline. ([#50937](https://github.com/expo/expo/pull/50937) by [@tsapeta](https://github.com/tsapeta))
+- [iOS] Add `JavaScriptRuntime.cached(_:_:)` with typed `JavaScriptRuntime.Cache.Key`s, to create a value once per runtime and reuse it, for example a JavaScript constructor or a property name. A lookup reads one array slot, about 5× faster than the string-keyed `JavaScriptPropNameID.cached(_:_:)`. ([#50888](https://github.com/expo/expo/pull/50888) by [@tsapeta](https://github.com/tsapeta))
+
 ## 58.0.7
 
 ### Patch Changes

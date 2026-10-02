@@ -1,5 +1,24 @@
 # Changelog
 
+## 58.1.2
+
+### Patch Changes
+
+- Bump `@expo/devcert` to `^1.2.2`, `@expo/ws-tunnel` to `^2.0.1`, and `@expo/xcpretty` to `^4.4.6`. ([#50955](https://github.com/expo/expo/pull/50955) by [@kitten](https://github.com/kitten))
+- Preserve bundled, external, and inline stylesheet order across static and server rendering. ([#50016](https://github.com/expo/expo/pull/50016) by [@hassankhan](https://github.com/hassankhan))
+- Fix `createJsInspectorMiddleware`'s `Content-Length` header to reflect the UTF-8 byte length of the response, instead of its UTF-16 string length, which undersized the header for any inspector app metadata (e.g. a device name) containing non-ASCII characters. ([#49305](https://github.com/expo/expo/pull/49305) by [@Rakshit-gen](https://github.com/Rakshit-gen))
+- Bump `semver` to `^7.7.4`. ([#50391](https://github.com/expo/expo/pull/50391) by [@hassankhan](https://github.com/hassankhan))
+- Updated dependencies. ([#50955](https://github.com/expo/expo/pull/50955), [#50016](https://github.com/expo/expo/pull/50016), [#50458](https://github.com/expo/expo/pull/50458), [#50391](https://github.com/expo/expo/pull/50391))
+  - @expo/config-plugins@58.0.5
+  - @expo/metro-config@58.0.8
+  - @expo/router-server@58.0.7
+  - expo-server@58.0.3
+  - @expo/log-box@58.0.9
+  - @expo/config@58.0.2
+  - @expo/image-utils@0.12.3
+  - @expo/prebuild-config@58.0.8
+  - @expo/inline-modules@0.2.2
+
 ## 58.1.1
 
 ### Patch Changes

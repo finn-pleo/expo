@@ -1,5 +1,11 @@
 # Changelog
 
+## 58.0.8
+
+### Patch Changes
+
+- [Android] Fixed the window staying white when the camera view unmounts during the shutter animation ([#50904](https://github.com/expo/expo/issues/50904)). ([#50950](https://github.com/expo/expo/pull/50950) by [@alanjhughes](https://github.com/alanjhughes))
+
 ## 58.0.7
 
 ### Patch Changes
